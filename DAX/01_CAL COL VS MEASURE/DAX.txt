@@ -1,0 +1,24 @@
+DAX is a library of functions and operators combined to build formulas and
+expressions. 
+
+Also known as Function Language, where the full code is kept inside a function.
+
+CALCULATED COLUMNS:
+
+* Expands table by creating new column
+* Stored along with table, Consumes Memory
+* Less analytical capability
+* It refers a column
+
+Eg: New Prod = [Product Item] &" - "&[Product Category]
+    Profit = [Sales Amount] - [Cost Amount]
+
+MEASURE:
+
+* Summarizes data into a single value
+* Calculate at runtime
+* Rich analytical capability
+* It refers a value
+
+Eg: Total Profit = Sum([Sales Amount]) - Sum([Cost Amount])
+    
